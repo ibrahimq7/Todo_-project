@@ -1,0 +1,8 @@
+    /* Task list */
+    .task{display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:10px; padding:10px; border:1px solid rgba(255,255,255,.06); border-radius:12px; background:rgba(255,255,255,.03)}
+    .task.completed{opacity:.55; text-decoration:line-through}
+    .task .meta{font-size:12px; color:var(--muted)}
+    .task .tag{font-size:11px; padding:3px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.14)}
+    .task .due.overdue{color:var(--danger); font-weight:700}
+    .task .due.soon{color:var(--warn); font-weight:700}
+    .task[draggable="true"]{cursor:grab}

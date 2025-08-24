@@ -1,0 +1,8 @@
+/* Calendar */
+    .calendar{display:grid; grid-template-rows:auto auto 1fr; gap:8px}
+    .cal-grid{display:grid; grid-template-columns:repeat(7,1fr); gap:6px}
+    .cal-cell{min-height:66px; border:1px solid rgba(255,255,255,.08); border-radius:10px; padding:6px; display:flex; flex-direction:column; gap:4px}
+    .cal-cell .d{font-size:12px; color:var(--muted)}
+    .dot{width:6px; height:6px; border-radius:999px; background:var(--accent)}
+    .dots{display:flex; gap:4px; flex-wrap:wrap}
+    .cal-nav{display:flex; gap:8px; align-items:center; justify-content:space-between}

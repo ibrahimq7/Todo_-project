@@ -1,0 +1,8 @@
+
+    /* Eisenhower matrix */
+    .matrix{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:auto 1fr 1fr; gap:10px; height:480px}
+    .mx-hd{font-size:13px; color:var(--muted); text-align:center}
+    .quad{border:2px dashed rgba(255,255,255,.18); border-radius:16px; padding:8px; display:flex; flex-direction:column; gap:8px; overflow:auto}
+    .quad.dragover{border-color:var(--accent)}
+    .quad .title{font-size:13px; color:var(--muted); margin:4px 0 6px}
+    .mx-badges{display:flex; gap:6px; justify-content:center}
