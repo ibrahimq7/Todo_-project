@@ -1,96 +1,99 @@
-Smart To-Do & Productivity Manager
+📝 Smart To-Do List & Eisenhower Matrix App
 
-A modern task management and productivity web application.
-It provides a structured way to manage tasks, schedule with deadlines, receive reminders, and prioritize work using the Eisenhower Matrix.
+A fast, intelligent, and modern task management app designed to help you organize, prioritize, and accomplish your tasks efficiently. Perfect for personal productivity, work, college, diet planning, or any custom routine.
 
-Features
-Task Management
+✨ Key Features
+🛠 Core Features
 
-Add, edit, complete, and delete tasks.
+➕ Add Task: Create tasks with title, optional due date, category, and priority.
 
-Smart sorting (incomplete tasks first, completed tasks last).
+✔️ Mark Complete & 🗑 Delete Task: Keep your list tidy and up-to-date.
 
-Categories: Work, College, Diet, Personal, and custom sections.
+📊 Smart Sorting: Incomplete tasks appear first, completed tasks follow.
 
-Scheduling & Alerts
+🌙 Dark / ☀️ Light Mode: Stylish themes for every environment.
 
-Set deadlines and specific timings for tasks.
+📱 Responsive Design: Optimized for mobile and desktop screens.
 
-Calendar view to visualize tasks.
+🚀 Advanced Features
 
-Notifications before deadlines (custom alerts: 10/20 minutes or user-defined).
+📅 Task Calendar: View tasks by date in a clean calendar layout.
 
-Eisenhower Matrix
+⏰ Task Timings & Alerts: Set start/end times and receive reminders 10, 20, or custom minutes before a task begins.
 
-Visual 2×2 priority matrix:
+🔔 Next Task Notification: Stay prepared with alerts before your upcoming task.
 
-Urgent & Important → Do Now
+📂 Custom Categories: Organize tasks by Work, College, Diet, or create your own sections.
 
-Not Urgent & Important → Plan
+🟦 Eisenhower Matrix: Prioritize tasks with a visual 2x2 matrix:
 
-Urgent & Unimportant → Delegate
+Important & Urgent
 
-Not Urgent & Unimportant → Eliminate
+Important & Not Urgent
 
-Assign tasks to quadrants for clear prioritization.
+Unimportant & Urgent
 
-Custom Sections
+Unimportant & Not Urgent
+(Drag & drop tasks for better focus and efficiency.)
 
-Create personalized sections for goals (e.g., Diet, Fitness, Projects).
+🥗 Diet & Health Reminders: Schedule meals, water intake, or personal routines with notifications.
 
-Diet planner with meal scheduling and reminders.
+💻 Technology Stack
 
-Water intake reminders at hourly or custom intervals.
+Frontend: React.js + TailwindCSS
 
-Additional Tools
+Backend: Node.js / Express or Django
 
-Dashboard for daily and weekly overview.
+Database: SQLite / PostgreSQL / MongoDB
 
-Search and filter tasks by category, priority, or date.
+Notifications: Push notifications for task reminders
 
-Export tasks (CSV/JSON).
+Hybrid Support: Mobile + Desktop (PWA-ready)
 
-Responsive layout with light/dark mode toggle.
-
-Project Structure
-├── index.html       # Main entry point
-├── style.css        # Styles (light/dark themes)
-├── script.js        # Core task management logic
-├── matrix.js        # Eisenhower Matrix implementation
-├── calendar.js      # Calendar and alerts
-└── README.md        # Documentation
-
-Getting Started
-
-Clone the repository:
-
-git clone https://github.com/your-username/smart-todo-app.git
+📥 Installation
+git clone https://github.com/yourusername/smart-todo.git
+cd smart-todo
+npm install
+npm start
 
 
-Navigate to the project folder:
+Open in browser: http://localhost:3000
 
-cd smart-todo-app
+🚀 How to Use
 
+➕ Add Task: Fill in title, category, date, and time.
 
-Open index.html in your browser to launch the app.
+✔️ Complete / 🗑 Delete: Mark tasks complete or remove them.
 
-Roadmap
+🟦 Eisenhower Matrix: Drag tasks to the correct urgency/importance quadrant.
 
-Progressive Web App (PWA) with push notifications.
+⏰ Set Alerts: Get notified before a task starts.
 
-Google Calendar / Outlook integration.
+📂 Custom Sections: Organize tasks into Work, Diet, College, or your own categories.
 
-Shared task lists with collaboration features.
+🌟 Future Enhancements
 
-AI-based task prioritization.
+🔄 Recurring tasks (daily/weekly/monthly)
 
-Voice input for task creation.
+👥 Task sharing & collaboration
 
-Contributing
+🤖 AI-based smart task suggestions
 
-I want you to know that contributions are welcome. Please fork this repository, create a new branch for your feature or bugfix, and submit a pull request.
+📆 Google Calendar / Outlook integration
 
-License
+🤝 Contributing
 
-This project is licensed under the MIT License
-.
+Fork the repo
+
+Create a branch: git checkout -b feature-name
+
+Commit your changes: git commit -m "Add feature"
+
+Push branch: git push origin feature-name
+
+Open a Pull Request
+
+📄 License
+
+MIT License – see the LICENSE
+ file for details.
