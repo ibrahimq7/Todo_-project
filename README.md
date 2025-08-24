@@ -1,99 +1,106 @@
-📝 Smart To-Do List & Eisenhower Matrix App
+# 📝 Smart To-Do & Productivity Manager
 
-A fast, intelligent, and modern task management app designed to help you organize, prioritize, and accomplish your tasks efficiently. Perfect for personal productivity, work, college, diet planning, or any custom routine.
+A modern **task management and productivity web application**.  
+It helps you organize tasks, schedule deadlines, receive reminders, and prioritize effectively using the **Eisenhower Matrix**.  
+Designed to be **fast, simple, and flexible** for daily use.
 
-✨ Key Features
-🛠 Core Features
+---
 
-➕ Add Task: Create tasks with title, optional due date, category, and priority.
+## 🚀 Features
 
-✔️ Mark Complete & 🗑 Delete Task: Keep your list tidy and up-to-date.
+### ✅ Task Management
+- Add, edit, complete, and delete tasks.  
+- Smart sorting (incomplete tasks shown first).  
+- Categories: Work, College, Diet, Personal, or custom.  
 
-📊 Smart Sorting: Incomplete tasks appear first, completed tasks follow.
+### ⏰ Scheduling & Alerts
+- Set due dates and timings for each task.  
+- Calendar view for better planning.  
+- Notifications before deadlines (customizable: 10 min, 20 min, or user-defined).  
+- Alerts before the next task starts.  
 
-🌙 Dark / ☀️ Light Mode: Stylish themes for every environment.
+### 🟦 Eisenhower Matrix
+- Visual 2×2 priority matrix:  
+  - **Urgent & Important** → Do Now  
+  - **Not Urgent & Important** → Plan  
+  - **Urgent & Unimportant** → Delegate  
+  - **Not Urgent & Unimportant** → Eliminate  
+- Drag & drop tasks into quadrants for clarity.  
 
-📱 Responsive Design: Optimized for mobile and desktop screens.
+### 🎯 Custom Sections
+- Create custom sections for personal goals.  
+- Diet planner with meal reminders.  
+- Water intake reminders (every 1 hr, 2 hrs, or custom).  
 
-🚀 Advanced Features
+### 📊 Productivity Tools
+- Dashboard with daily/weekly overview.  
+- Search and filter tasks by date, category, or priority.  
+- Export tasks (CSV/JSON).  
+- Responsive design with dark/light mode toggle.  
 
-📅 Task Calendar: View tasks by date in a clean calendar layout.
+---
 
-⏰ Task Timings & Alerts: Set start/end times and receive reminders 10, 20, or custom minutes before a task begins.
+## 📂 Project Structure
 
-🔔 Next Task Notification: Stay prepared with alerts before your upcoming task.
+├── index.html # Main entry point
+├── style.css # Styles (light/dark themes)
+├── script.js # Core task management logic
+├── matrix.js # Eisenhower Matrix functionality
+├── calendar.js # Calendar & alerts
+└── README.md # Documentation
 
-📂 Custom Categories: Organize tasks by Work, College, Diet, or create your own sections.
+yaml
+Copy
+Edit
 
-🟦 Eisenhower Matrix: Prioritize tasks with a visual 2x2 matrix:
+---
 
-Important & Urgent
+## 🛠️ Getting Started
 
-Important & Not Urgent
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/smart-todo-app.git
+Navigate to the project folder:
 
-Unimportant & Urgent
+bash
+Copy
+Edit
+cd smart-todo-app
+Open index.html in your browser.
 
-Unimportant & Not Urgent
-(Drag & drop tasks for better focus and efficiency.)
+🌐 Live Demo
+👉 View the App
+(Replace # with your GitHub Pages, Vercel, or Netlify link.)
 
-🥗 Diet & Health Reminders: Schedule meals, water intake, or personal routines with notifications.
+🔮 Roadmap
+📲 Progressive Web App (PWA) with push notifications
 
-💻 Technology Stack
+🔗 Google Calendar / Outlook integration
 
-Frontend: React.js + TailwindCSS
+🤝 Shared task lists & team collaboration
 
-Backend: Node.js / Express or Django
+🧠 AI-assisted task prioritization
 
-Database: SQLite / PostgreSQL / MongoDB
-
-Notifications: Push notifications for task reminders
-
-Hybrid Support: Mobile + Desktop (PWA-ready)
-
-📥 Installation
-git clone https://github.com/yourusername/smart-todo.git
-cd smart-todo
-npm install
-npm start
-
-
-Open in browser: http://localhost:3000
-
-🚀 How to Use
-
-➕ Add Task: Fill in title, category, date, and time.
-
-✔️ Complete / 🗑 Delete: Mark tasks complete or remove them.
-
-🟦 Eisenhower Matrix: Drag tasks to the correct urgency/importance quadrant.
-
-⏰ Set Alerts: Get notified before a task starts.
-
-📂 Custom Sections: Organize tasks into Work, Diet, College, or your own categories.
-
-🌟 Future Enhancements
-
-🔄 Recurring tasks (daily/weekly/monthly)
-
-👥 Task sharing & collaboration
-
-🤖 AI-based smart task suggestions
-
-📆 Google Calendar / Outlook integration
+🎙️ Voice input for adding tasks
 
 🤝 Contributing
+Contributions are welcome!
+Please fork this repository and submit a pull request for any improvements or new features.
 
-Fork the repo
+📜 License
+This project is licensed under the MIT License.
 
-Create a branch: git checkout -b feature-name
+💡 About
+This project is more than a to-do list. It’s a personal productivity manager that combines:
 
-Commit your changes: git commit -m "Add feature"
+✅ Smart task lists
 
-Push branch: git push origin feature-name
+🗓️ Calendar scheduling
 
-Open a Pull Request
+🔔 Custom reminders & notifications
 
-📄 License
+🟦 Eisenhower Matrix prioritization
 
-MIT License – see the LICENSE
- file for details.
+🥗 Diet & wellness reminders
+
+Helping you stay organized, productive, and balanced every day 🚀
